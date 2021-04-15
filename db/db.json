@@ -1,6 +1,12 @@
 [
     {
         "title":"Test Title",
-        "text":"Test text"
+        "text":"Test text",
+        "id": "lkjrlakjerlk3j43kj42lk3j4l23j"
+    },
+    {
+        "title":"My own test",
+        "text":"does this work?",
+        "id": "23lk234kq4kl3kjl43klq"
     }
 ]
