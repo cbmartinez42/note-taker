@@ -11,7 +11,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// router
+// routers
 require('./routes/apiRoutes')(app); // api routes
 app.use(express.static('public'));
 require('./routes/htmlRoutes')(app); // public HTML
