@@ -1,30 +1,28 @@
 # Note Taker
 
-This is an original application create a team profile through a Command Line Interface
+This is an application to create reminder notes utilizing Express.js, JavaScript, and Node
 
-<!-- Link to sample HTML file: [Sample](./note-taker-sample.html)   -->
+Link to deployed site: [Sample](./note-taker-sample.html)  
 Screenshot of sample: <img src="./assets/images/note-taker-sample.PNG">    
 
 
-  
-A [video walkthrough](https://www.youtube.com/watch?v=W_ol_5Q7t8E) is also available
-
 ## Features
-* Utilizes JavaScript and Node.js to provide a simple user interface
-    * Inquirer module for command prompts
-    * Jest module for tests
-* Utilizes class constructors to unify object data for different role types
+* Utilizes JavaScript, Express.js and Node.js to provide a simple user interface
+    * Utilizes Node.js as the runtime environment
+    * Utilizes Express.js for http functionality
+    
+* Utilizes separate routes for HTML and API paths
+* Incorporates json database file to store persisting input from the user
 
 ### Challenges
-* Overall I've struggled with utilizing class constructors for Object Oriented Programming. My tutor was able to help clarify the usage of these and how they interact with the overall programming framework
-* Creating tests was also a challenge. The instructions provided helped with knowing that elements to test, and I was able to get assistance from classmates in determining the proper way to test my class constructors
+* The biggest challenge overall was in handling the data going to and from the `db.json` file, such as when to parse it and how to manipulate the data with JavaScript and the `fs` package to enable read/write functionality. 
+* In addition, deleting notes was a unique learning experience as there are multiple ways to handle this. I found that by utilizing more arguments in the `splice` method than I had previously, I was able to achieve the desired results in an efficient way. 
 
 
 ## Credits
 Many thanks to the below individuals who provided input and suggestions
 * Mim Armand
-* Andrew Hardemon (stand-in tutor)
-* Jay Yousef
+* Stephen Simone
 * And last, but not least - *Grogu*
         
 <img src="./assets/images/grogu.png">
@@ -37,7 +35,7 @@ If any additional issues are found, or if there are any suggestions for improvem
 ### <ins>Installation</ins>
 1.  Clone or download .zip file from Github to your local computer
 2.  In Git Bash or Terminal, type `npm install` to install the necessary modules
-3.  When ready, type `node .` to launch `index.js`
+3.  When ready, type `node .` to launch `server.js`
 
 #### <ins>Cloning</ins>
 1. From Github, select the "Code" button, choose either HTTPS or SSH as appropriate
