@@ -3,7 +3,7 @@
 This is an application to create reminder notes utilizing Express.js, JavaScript, and Node
 
 Link to deployed site: [https://glacial-sands-34212.herokuapp.com/](https://glacial-sands-34212.herokuapp.com/)  
-Screenshot of sample: <img src="./assets/images/note-taker-sample.PNG">    
+Screenshot of sample: <img src="./Assets/images/note-taker-sample.PNG">    
 
 
 ## Features
