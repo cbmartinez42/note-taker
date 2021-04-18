@@ -25,7 +25,7 @@ Many thanks to the below individuals who provided input and suggestions
 * Stephen Simone
 * And last, but not least - *Grogu*
         
-<img src="./assets/images/grogu.png">
+<img src="./Assets/images/grogu.png">
 
 
 If any additional issues are found, or if there are any suggestions for improvement, please send an email to developer Chris Martinez at cbmartinez42@gmail.com
